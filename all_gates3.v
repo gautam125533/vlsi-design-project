@@ -1,3 +1,4 @@
+//VIVEK_KUMAR
 module all_gates3(a,b,y);
   input[6:0]a,b;
   output[6:0]y;
