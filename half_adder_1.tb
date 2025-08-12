@@ -1,1 +1,18 @@
+#Half_adder testbench_vivek kumar
+module half_adder_1_tb;
+  reg a,b;
+  wire sum,carry;
+  half_adder_1 uut(a,b,sum,carry);
+ initial begin
+    a=0; b=0;
+    #10;
+    a=0; b=1;
+    #10;
+    a=1; b=0;
+    #10;
+    a=1; b=1;
+    #10;
+    $finish;
+  end
+endmodule
 
